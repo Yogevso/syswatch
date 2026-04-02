@@ -1,0 +1,10 @@
+{
+  "name": "syswatch-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WebSocket bridge between syswatch CLI and React dashboard",
+  "main": "index.js",
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}

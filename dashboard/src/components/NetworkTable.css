@@ -1,0 +1,43 @@
+.net-card {
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.net-card .table-wrap {
+  flex: 1;
+  overflow: auto;
+}
+
+.net-table td {
+  font-size: 11px;
+  padding: 7px 12px;
+}
+
+.net-table th {
+  padding: 8px 12px;
+  font-size: 10px;
+}
+
+.proto-cell {
+  font-weight: 700;
+  color: var(--accent-blue);
+}
+
+.state-established {
+  color: var(--accent-cyan);
+  font-weight: 600;
+}
+.state-listen {
+  color: var(--accent-green);
+  font-weight: 600;
+}
+.state-closing {
+  color: var(--accent-yellow);
+  font-weight: 600;
+}
+
+/* Subtle row alternate for network table */
+.net-table tbody tr:nth-child(even) {
+  background: rgba(0, 0, 0, 0.08);
+}
