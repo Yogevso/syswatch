@@ -1,5 +1,7 @@
 # SysWatch
 
+> **Part of the [Orchestrix Platform](https://github.com/Yogevso/Orchestrix-Platform)** — the system-level monitoring layer feeding metrics into System Insights API.
+
 ![C](https://img.shields.io/badge/language-C-blue)
 ![Platform](https://img.shields.io/badge/platform-Linux-lightgrey)
 ![React](https://img.shields.io/badge/dashboard-React-61DAFB)
@@ -13,10 +15,6 @@
 > Designed to debug real issues like connection leaks (`CLOSE_WAIT`), CPU spikes, and suspicious network activity.
 
 SysWatch aggregates system metrics from `/proc`, tracks network connections, correlates processes to their sockets, and detects anomalies — all from a single, lightweight command-line tool. The companion React dashboard provides a real-time visual interface with live WebSocket updates.
-
-## Demo
-
-![SysWatch Demo](./docs/demo.gif)
 
 ## Why This Project
 
